@@ -1,15 +1,14 @@
-const express = require("express");
+import express from "express";
+import bodyParser from "body-parser";
+import usersRoutes from "./routes/users.js";
+
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
+app.use(bodyParser.json());
 
-app.get("/", (req, res) => {
-   res.send("Banana");
-})
+app.use("/users", usersRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Server started at port: ${PORT}`)
+    console.log(`Server started att port: ${PORT}`);
 })
-
-
-
