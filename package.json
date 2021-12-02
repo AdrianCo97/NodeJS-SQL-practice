@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-sql-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianCo97/NodeJS-SQL-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianCo97/NodeJS-SQL-practice/issues"
+  },
+  "homepage": "https://github.com/AdrianCo97/NodeJS-SQL-practice#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "pg-promise": "^10.11.1"
+  }
+}
